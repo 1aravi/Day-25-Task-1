@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lateef&family=Tangerine:wght@700&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #030102, #181718, #272628, #373738, #48484a, #494a4d, #494b4f, #484d52, #374045, #263337, #152729, #051b1a);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2em;
+    color: yellowgreen !important;
+
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:3em;
+    color:yellowgreen !important;
+
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:5em;
+    color:yellowgreen !important;
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+.result{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+}
+#img1{
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+    
+}
+button{
+    
+    border: 5px solid black;
+    color:rgb(115, 50, 205) ;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: gray;
+
+}
+button:active{
+    transform: scale(0.98);
+}
+button:focus{
+    outline: none;
+}
